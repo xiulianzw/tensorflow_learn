@@ -280,7 +280,7 @@ if __name__ == "__main__":
     init = tf.global_variables_initializer()
     sess = tf.Session()
     sess.run(init)
-    num_batches = 10
+    num_batches = 100
     time_tensorflow_run(sess,logits,"Forward",num_batches)
 
 
